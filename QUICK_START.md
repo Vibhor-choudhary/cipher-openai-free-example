@@ -18,8 +18,8 @@ Get Cipher running with OpenAI-free alternatives in under 5 minutes!
 
 ```bash
 # Clone this repo
-git clone https://github.com/Vibhor-choudhary/cipher-openai-free-example.git
-cd cipher-openai-free-example
+git clone https://github.com/Vibhor-choudhary/cipher-starter-kit.git
+cd cipher-starter-kit
 
 # Copy and edit environment file
 cp env.example .env

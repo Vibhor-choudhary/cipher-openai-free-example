@@ -1,4 +1,4 @@
-# Cipher OpenAI-Free Example Configurations
+# Cipher Starter Kit
 
 This repo offers ready-to-use configs for Cipher—an agentic memory layer for AI assistants—using ONLY OpenRouter, Gemini, or Qwen for FREE completions and memory (NO OpenAI requirement!).
 
