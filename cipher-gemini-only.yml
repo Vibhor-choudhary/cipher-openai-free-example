@@ -1,0 +1,11 @@
+# Example: Gemini for both completions and embeddings
+
+embedding:
+  type: gemini
+  model: gemini-embedding-001
+  apiKey: YOUR_GEMINI_API_KEY
+
+llm:
+  provider: gemini
+  model: gemini-2-pro         # Or your preferred Gemini completion model
+  apiKey: YOUR_GEMINI_API_KEY 

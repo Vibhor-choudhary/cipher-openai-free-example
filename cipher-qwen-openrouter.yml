@@ -1,0 +1,12 @@
+# Example: OpenRouter (Qwen) completions with Qwen embeddings
+
+embedding:
+  type: qwen
+  model: text-embedding-v3
+  apiKey: YOUR_OPENROUTER_API_KEY
+  dimensions: 1024  # Required: Qwen only supports 1024, 768, 512
+
+llm:
+  provider: openrouter
+  model: qwen/qwen3-72b:free
+  apiKey: YOUR_OPENROUTER_API_KEY 

@@ -1,0 +1,17 @@
+# cipher.yml — OpenRouter completions + Gemini embeddings (no OpenAI needed!)
+
+embedding:
+  type: gemini
+  model: gemini-embedding-001
+  apiKey: YOUR_GEMINI_API_KEY
+
+llm:
+  provider: openrouter
+  model: moonshotai/kimi-k2:free         # Any OpenRouter model; Kimi K2 suggested (fully free)
+  apiKey: YOUR_OPENROUTER_API_KEY
+
+logging:
+  level: info
+
+memory:
+  # Default storage is local; see VECTOR_STORE.md for cloud DBs 
